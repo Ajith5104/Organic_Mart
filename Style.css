@@ -95,8 +95,10 @@ section{
     font-weight: 700;
 }
 #Products img{
+    margin-top: 20px;
     height: 200px;
     width: 200px;
+    border-radius: 5px;
 }
 .card{
     height: 250px;
@@ -118,12 +120,14 @@ section{
 /****Contact*****/
 #Contact img{
     height: 100%;
+    border-radius: 5px;
 }
 .box{
     width: 80% !important;
-    margin-top: 10px;
-    background: skyblue;
-}
+    padding: 20px;
+    background: rgb(143, 191, 210);
+    text-align: center;
+    }
 form{
     display:flex;
     flex-direction: column;
@@ -143,3 +147,15 @@ footer{
     text-align: center;
     padding: 3px;
 }
+@media only screen and (max-width:992px) {
+    .card{
+        height: 250px;
+        width: 200px;        
+    }
+    #Products img{
+        margin: 15px;
+        height: 150px;
+        width: 150px;
+        border-radius: 5px;
+    }
+  }
