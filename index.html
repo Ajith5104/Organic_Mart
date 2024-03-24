@@ -60,7 +60,7 @@
 <div class="container m-2 ">
   <h1 class="text-center my-5">OUR PRODUCTS</h1>
   <div class="row">
-    <div class="col-lg-4 col-md-4 col-12">
+     <div class="col-lg-4 col-md-4 col-12">
       <div class="card">
         <img src="images/Turmeric.jpeg" class="card-img-top">
         <div class="card-body">
@@ -68,7 +68,7 @@
           <button class="btn Signin">Buy Now</button>
         </div>
       </div>
-    </div>
+    </div>  
     <div class="col-lg-4 col-md-4 col-12">
       <div class="card">
         <img src="images/coffee.jfif" class="card-img-top">
@@ -85,8 +85,8 @@
           <h5 class="card-title">shikakai</h5>          
           <button class="btn Signin">Buy Now</button>
         </div>
-      </div>
     </div>
+  </div>
   <div class="row">
     <div class="col-lg-4 col-md-4 col-12">
       <div class="card">
@@ -154,10 +154,13 @@
   </div>
   <div class="col-lg-6 col-md-6 col-12">
      <h1>CONTACT US</h1>
-     <form>
-      <input type="text" placeholder="Enter your name" class="form-control">
-      <input type="text" placeholder="Enter your Email" class="form-control">
-      <textarea placeholder="Enter your Message" class="form-control"></textarea>
+     <form class="form"action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="12ddde2a-92f6-4391-9efc-fbe3dd98ebba">
+      <input type="text"   name="name" placeholder="Enter your name" class="form-control">
+      <input type="text"   name="mobile" placeholder="Enter your mobile" class="form-control">
+      <input type="text"  name="email" placeholder="Enter your Email" class="form-control">
+      <textarea placeholder="Enter your Message" name="message" class="form-control"></textarea>
+      
       <button class="btn Signin">Send Message</button>
      </form>
   </div>
